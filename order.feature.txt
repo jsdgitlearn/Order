@@ -1,0 +1,8 @@
+Feature: Order Page
+
+Scenario: Order a phone on Amazon
+
+Given I am on the login page
+When I search for phone models
+And I select Iphone11
+Then I should be ale to select "order"button
